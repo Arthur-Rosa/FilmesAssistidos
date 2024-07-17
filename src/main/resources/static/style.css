@@ -1,0 +1,160 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+
+    background-color: #212529;
+    
+}
+
+.container-filmes {
+    margin-top: 30px;
+}
+
+.container-lista-filmes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button-add {
+    background-color: #198754;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button-add:hover {
+    background-color: #15a160;
+}
+
+.button-add:active {
+    background-color: #0c5e38;
+}
+
+.filme-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.filme-buttons a {
+	display: block;
+	width: 100%;
+}
+
+.editar-btn {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.editar-btn:hover {
+    background-color: #c9990c;
+}
+
+.editar-btn:active {
+    background-color: #ffc107;
+}
+
+.deletar-btn {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.deletar-btn:hover {
+    background-color: #b9202f;
+}
+
+.deletar-btn:active {
+    background-color: #dc3545;
+}
+
+.filme {
+    width: 230px;
+    text-align: start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.filme h2 {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+
+.filme p {
+    margin: 0;
+    color: gray;
+    font-weight: bold;
+}
+
+.filme img {
+    width: 100%;
+}
+
+/* Criar Filme */
+
+body {
+    width: 70%;
+    margin: 0 auto;
+
+    background-color: #212529;
+}
+
+
+.input-group {
+    padding: 10px;
+}
+
+.container-form h2, .input-group label {
+    color: white;
+    font-weight: bold;
+}
+
+
+.input-group input {
+    display: block;
+    padding: 5px;
+    width: 250px;
+}
+
+.enviar-form {
+    background-color: #198754;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.enviar-form:hover {
+    background-color: #15a160;
+}
+
+.enviar-form:active {
+    background-color: #0c5e38;
+}
